@@ -47,15 +47,14 @@ const Homepage = () => {
     fetchSearchedMovie(searchTerm);
   };
   return (
-    <div>
+    <div className="page_margin">
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <p className="display-4">Find perfect movie for evening</p>
-          <p className="lead">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
-          </p>
-          <div className="d-flex justify-content-center align-items-center">
+          <p className="hero_text py-4">Find perfect movie for evening</p>
+          <div
+            className="d-flex justify-content-center align-items-center my-4"
+            style={{ width: "70%", margin: "0 auto" }}
+          >
             <div className="input-group input-group-lg">
               <div className="input-group-prepend">
                 <span className="input-group-text" id="inputGroup-sizing-lg">
@@ -73,7 +72,7 @@ const Homepage = () => {
             </div>
             <button
               type="button"
-              className="btn btn-primary btn-lg"
+              className="btn btn-primary btn-lg ml-3"
               onClick={() => {
                 routeChange();
                 setTab(1);

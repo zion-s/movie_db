@@ -3,9 +3,11 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <Navbar bg="light" variant="light">
+    <Navbar bg="none" variant="light">
       <Container>
-        <Navbar.Brand href="/">Cinibuzz</Navbar.Brand>
+        <Navbar.Brand href="/" className="brand">
+          Cinibuzz
+        </Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="/">Movies</Nav.Link>
           <Nav.Link href="">TV Shows</Nav.Link>

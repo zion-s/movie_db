@@ -1,3 +1,21 @@
+.page_margin {
+  width: 75%;
+  margin: 0 auto;
+}
+.brand {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #6855d6 !important;
+}
+.hero_text {
+  font-size: 2rem;
+  text-align: center;
+}
+.btn-primary {
+  background-color: #6855d6 !important;
+  border-color: #6855d6 !important;
+}
+
 .tab {
   color: #aaa;
   padding: 10px 15px;
@@ -14,4 +32,32 @@
 }
 .poster {
   border-radius: 15px;
+}
+.poster_detail {
+  position: relative;
+}
+.jumbo_details {
+  position: absolute;
+  top: 80%;
+}
+.jumbo_poster {
+  pointer-events: none;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  border-radius: 20px;
+}
+.rating {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  color: green;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 600;
+}
+.user_score {
+  width: 200px;
 }
